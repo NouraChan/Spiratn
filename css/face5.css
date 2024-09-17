@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+
+section {
+    background: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.carditem {
+    display: flex;
+    text-align: left;
+    gap: 5px;
+}
+
+.userimg {
+    background-position: center;
+}
+
+.info {
+    text-align: center;
+}

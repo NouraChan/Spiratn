@@ -1,0 +1,174 @@
+* {
+    padding: 15px, 35px;
+    margin: 0;
+}
+
+.nav{
+    height: 70px;
+    background-color: transparent;
+}
+#face1 {
+    background : url(../images/cover.png) no-repeat;
+    background-size: 100% 100%; 
+}
+.content_1{
+    gap: 15px;
+    justify-content: space-evenly;
+}
+.content_1>div{
+    height: 650px;
+}
+
+#face2 {
+    background-color: gainsboro;
+    height: 500px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #252B42;
+
+}
+
+#face3 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background: linear-gradient(to bottom, #F3F3F3 50%, #0b353d 50%);
+    width: 100%;
+    height: 616px;
+    padding: 60px 0px;
+    gap: 30px;
+}
+
+.headtext>h2 {
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+
+}
+
+.headtext>p {
+    color: #737373;
+    font-size: 14;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#vid1 {
+    display: flex;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../images/cover11.jpg) no-repeat;
+    z-index: 100;
+    height: 440px;
+    width: 877px;
+    gap: 30px;
+    margin-top: 40px;
+    border: solid 0.25px #DEDEDE;
+    border-radius: 5px;
+    background-position: center;
+
+}
+
+.btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 172px;
+    left: 390px;
+    padding: 34.8px 36.8px 34.8px 36.8px;
+    gap: 0px;
+    border-radius: 73.6px;
+    opacity: 0px;
+    background-color: #00A0C1;
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+}
+
+@media only screen and ( max-width: 868px) {
+
+    #vid1 {
+        height: 370px;
+        width: 550px;
+        margin-left: 10px;
+
+    }
+    .btn {
+        top: 172px;
+        left: 210px;
+
+}}
+
+@media only screen and (max-width: 600px) {
+
+    #vid1 {
+        height: 440px;
+        width: 400px;
+        margin-left: 55px;
+
+    }
+
+    .btn {
+        top: 172px;
+        left: 160px;
+        background: center;
+        padding: 17px 17px 17px 17px;
+        gap: 0px;
+        border-radius: 73.6px;
+        opacity: 0px;
+        background-color: #00A0C1;
+        text-decoration: none;
+        font-size: 50px;
+        color: white;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+#face5 {
+    background-color: rgb(206, 199, 199);
+    height: 500px;
+}
+
+#face6 {
+    background-color: gainsboro;
+    height: 500px;
+}
+
+#face7 {
+    background-color: white;
+    height: 500px;
+}
+
+#face8 {
+    background-color: gainsboro;
+    height: 150px;
+
+}
+
+#face9 {
+    background-color: rgb(9, 28, 48);
+    height: 400px;
+
+}
+
+.headtext {
+    text-align: center;
+}
+
+#footer{
+    background-color: rgb(6, 77, 64);
+    height: 70px;
+}

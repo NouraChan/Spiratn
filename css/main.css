@@ -1,0 +1,362 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    color: #252B42;
+
+}
+
+/* .page {
+    height: 100vh;
+} */
+
+.headtext {
+    text-align: center;
+    margin: 10px;
+
+}
+
+.nav {
+    height: 70px;
+    background-color: transparent;
+}
+
+.face1 {
+    background: url(../images/cover.png) no-repeat;
+    background-size: cover;
+}
+
+.content_1 {
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+
+.parent {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.head {
+    text-align: center;
+    margin: 80px auto;
+    width: 50%;
+}
+
+.head h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    margin-bottom: 10px;
+}
+
+.head p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+}
+
+.card-title {
+    padding-bottom: 20px;
+}
+
+.card {
+    width: 350px;
+    border: 1px solid #D9EDFF;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #D9EDFF;
+    padding: 30px 5px;
+
+}
+
+.card-body {
+    padding: 30px 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.card-body .list ul li {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    background-color: #FFFFFF;
+    list-style: none;
+    color: #737373;
+    margin: 10px 5px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.btns {
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.btns a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: #FFA62B;
+    padding: 14px 30px;
+}
+
+.face3 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background: linear-gradient(to bottom, #F3F3F3 50%, #0b353d 50%);
+    width: 100%;
+    /* height: 616px; */
+    padding: 60px 0px;
+    gap: 30px;
+}
+
+.face4 .container {
+    background: #F3F3F3;
+}
+
+.headtext>h2 {
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+
+}
+
+.headtext>p {
+    color: #737373;
+    font-size: 14;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#vid1 {
+    display: flex;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../images/cover11.jpg) no-repeat;
+    z-index: 100;
+    height: 60vh;
+    width: 877px;
+    gap: 30px;
+    margin-top: 40px;
+    border: solid 0.25px #DEDEDE;
+    border-radius: 5px;
+    background-position: center;
+}
+
+.vidbtn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 120px;
+    left: 5px;
+    padding: 34.8px 36.8px 34.8px 36.8px;
+    gap: 0px;
+    border-radius: 50%;
+    opacity: 0px;
+    background-color: #00A0C1;
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+}
+
+@media only screen and (max-width: 868px) {
+
+    #vid1 {
+        height: 370px;
+        width: 550px;
+        margin-left: 10px;
+    }
+
+    .vidbtn {
+        top: 172px;
+        left: 210px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #vid1 {
+        height: 440px;
+        width: 400px;
+        margin-left: 55px;
+    }
+
+    .vidbtn {
+        top: 172px;
+        left: 160px;
+        background: center;
+        padding: 17px 17px 17px 17px;
+        gap: 0px;
+        border-radius: 50%;
+        opacity: 0px;
+        background-color: #00A0C1;
+        text-decoration: none;
+        font-size: 50px;
+        color: white;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.row {
+    margin: 50px, 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#cards {
+    margin: 80px;
+}
+
+.carditem {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    background: #FFFFFF;
+    border: #DEDEDE 1px solid;
+    width: 330px;
+    height: 240px;
+    gap: 5px;
+    padding: 20px;
+    margin-bottom: 200px;
+
+}
+
+.user {
+    border-radius: 45px;
+    width: 50px;
+    float: left;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFA62B;
+}
+
+img {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rate {
+    width: 100px;
+    height: 30px;
+    display: block;
+}
+
+.info {
+    text-align: center;
+}
+
+.userimg {
+    height: 230px;
+    width: 330px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    background: #FFA62B;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 200px;
+}
+
+#formbody {
+
+    padding: 100px;
+    background: url(../images/fddf.png);
+    background-size: cover;
+    width: 100%;
+    height: 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+
+#formbody .headtext,
+.note .headtext {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+.forminput,
+.formselect {
+    height: 30px;
+    width: 25%;
+    background-color: #F9F9F9;
+    border: #BDBDBD solid 1px;
+    margin: 10px;
+}
+
+textarea {
+    resize: none;
+    background-color: #F9F9F9;
+    border: #BDBDBD solid 1px;
+    margin: 10px 5px;
+    width: 52.5%;
+}
+
+.note {
+    width: 100%;
+    /* display: flex; */
+    padding: 5px 0px 0px 100px;
+    /* align-items: stretch; */
+    height: 5vh;
+    /* gap: 580px; */
+}
+
+.button {
+    display: inline-block;
+    text-align: left;
+}
+
+.note .headtext {
+    display: inline-block;
+    margin-right: 580px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .note .headtext {
+        margin-right: 100px;
+
+    }
+}
+
